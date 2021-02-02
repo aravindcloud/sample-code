@@ -15,6 +15,6 @@ resource "azurerm_subnet" "subnet" {
   name                 = "${var.prefix}subnet"
   virtual_network_name = azurerm_virtual_network.vnet.name
   resource_group_name  = azurerm_resource_group.tf_azure_guide.name
-  address_prefixes     = var.subnet_prefix
+  address_prefix     = var.subnet_prefix
 }
 
