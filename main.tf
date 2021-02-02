@@ -1,5 +1,5 @@
 provider "azurerm" {
-  version = "=v2.2.0"
+  version = "=2.2.0"
 }
 resource "azurerm_resource_group" "tf_azure_guide" {
   name     = var.resource_group
